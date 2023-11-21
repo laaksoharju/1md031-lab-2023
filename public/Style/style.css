@@ -1,0 +1,48 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+     #bold {
+        font-weight: bold;
+        color: brown;
+     }
+     #blackwhite {
+        color: white;
+        background-color: black;
+     }
+    }
+div {
+    margin-left: 100px;
+} 
+header {
+    background: url("https://www.londonkoll.se/wp-content/uploads/2014/11/Pubar-London-1200x630px.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 100%;
+    
+    
+  }
+  .headertext {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: wheat;
+  }
+.button {
+    margin: 10px 0 40px 0;
+}
+button:hover {
+    background-color: grey;
+    cursor: pointer;
+}
+section {
+    border: 2px groove brown;
+    border-radius: 15px;
+    padding-left: 20px;
+    margin-top: 30px
+}
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 25% 25% 25%;
+    background-color: black;
+    color: wheat;
+}

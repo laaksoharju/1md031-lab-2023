@@ -1,0 +1,24 @@
+[
+    {
+      "pName": "Uppsala Special",
+      "kCal": 650,
+      "lactose": true,
+      "gluten": false,
+      "url": "img/Smoked-Hamburgers-Feature.jpg"
+    },
+    {
+        "pName": "Smash Burger",
+        "kCal": 750,
+        "lactose": false,
+        "gluten": true,
+        "url": "img/burgare.jpg"
+      },    
+      {
+        "pName": "Tornet",
+        "kCal": 800,
+        "lactose": true,
+        "gluten": true,
+        "url": "img/entill.jpg"
+      }
+
+  ]
