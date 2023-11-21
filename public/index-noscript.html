@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+       <link rel="stylesheet" type="text/css" href="Style/style.css">
+       <title>Beställ din Hamburgare</title>
+       <meta charset="utf-8"/>
+   </head>
+   <body>
+    <header>
+        <h1 class="headertext">Stans bästa burgare<h1>
+    </header>
+    <main>
+        <section style="margin: 0;"> 
+            <p style="font-style: italic;">Beställ din burgare nedan</p>
+        </section>
+       <section id="blackwhite" style="margin-top: 0;">
+    <div class="wrapper">
+        <div class="burgare1">        
+            <h2>Uppsala Special</h2>
+            <img src="https://heygrillhey.com/static/47c08cf31c9c6df778aee3088264eddf/Smoked-Hamburgers-Feature.png" 
+            alt="Very good burger" style="width: 200px;"><br>
+            <ul>
+                <li>Kött </li>
+                <li>Tomat</li>
+                <li>Rödlök</li>
+                <li><span id="bold">Laktos</span></li>
+            </ul>
+        </div>
+        <div class="burgare2">        
+            <h2>Smash Burger</h2>
+            <img src="https://media-cdn.tripadvisor.com/media/photo-s/25/18/0e/8a/original-smash-burger.jpg" 
+            alt="Very good burger" style="width: 219px;"><br>
+            <ul>
+                <li>Smashad</li>
+                <li>Två burgare</li>
+                <li>Karamelliserad lök</li>
+                <li><span id="bold">Gluten</span></li>
+            </ul>
+        </div>
+        <div class="burgare2">        
+            <h2>Tornet</h2>
+            <img src="https://img.koket.se/standard-giant/smashburger-med-karamelliserad-lok-och-tryffelmajo.png.webp" 
+            alt="Very good burger" style="width: 267px;"><br>
+            <ul>
+                <li>Två burgare</li>
+                <li>Karamelliserad lök</li>
+                <li>Tryffel</li>
+                <li><span id="bold">Laktos och Gluten</span></li>
+            </ul>
+        </div>
+    </div>
+       </section>
+       <section>   
+        <h3> Delivery Information</h3> 
+        <p>
+            <label for="Name">Your Name</label><br>
+            <input type="text" id="Name" name="fn" required="required" placeholder="First- and last name">
+        </p>
+        <p>
+            <label for="email">E-mail Adress</label><br>
+            <input type="text" id="email" name="ln" placeholder="E-mail">
+        </p>
+        <p>
+            <label for="street">Your street</label><br>
+            <input type="text" id="street" name="ln" placeholder="Street Name">
+        </p>
+        <p>
+            <label for="housenumber">Your House Number</label><br>
+            <input type="number" id="housenumber" name="ln" placeholder="House Number">
+        </p>
+        <p>
+            <label for="betalmedel">Betalmedel</label><be>
+            <select id="betalmedel" name="rcp">
+                <option>Swish</option>
+                <option>Kort</option>
+                <option>Klarna</option>
+            </select>
+         </p>
+        <h4> Kön</h4> 
+        <p>
+            <label for="gender">Kille</label>
+            <input type="radio" id="gender" checked="checked" name="gender" value="Kille"><br>
+
+            <label for="gender">Tjej</label>
+            <input type="radio" id="gender" name="gender" value="Tjej"><br>
+
+            <label for="gender">Annat</label>
+            <input type="radio" id="gender" name="gender" value="Annat"><br>
+        </p>
+       </section>
+       <section>   
+        <button type="submit" class="button">
+            <img src="https://www.pngall.com/wp-content/uploads/12/Order-Now-Button-Vector.png"
+            style="width: 150px;">
+          </button>
+       </section>
+    </main>
+    <footer>
+       <hr> &copy;	2023 gott med burgare AB </hr>
+    </footer>
+    </body>
+</html>
